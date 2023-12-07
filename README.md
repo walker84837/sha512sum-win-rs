@@ -52,12 +52,16 @@ For help or to report issues, please open an [issue](https://github.com/walker84
 
 ## Contributing
 
-Contributions are welcome! Feel free to open pull requests with improvements or bug fixes. See the [contribution guidelines](CONTRIBUTING.md) for more details.
+Contributions are welcome! Feel free to contribute, propose new features and fix code. To contribute:
+  - To use some sort of algorithm or functions, prefer the standard library over reinventing the wheel.
+  - Avoid using `unsafe` code, as the code should be safe.
+  - Use `rustfmt --edition 2021` to format the code.
+  - For big changes you'd like to make (changing libraries doesn't count), open an issue and describe why to switch (or remove it), how you'd implement it, and what is the difference between using them and not using them.
 
 ## License
 
-This project is dual-licensed under the [Apache 2.0](LICENSE-APACHE) or [MIT](LICENSE-MIT) license.
+This project is dual-licensed under the [Apache 2.0](LICENSE_APACHE.md) or [MIT](LICENSE_MIT.md) license.
 
 ## Project Status
 
-Development is not very active, as the maintainer works on it when time permits. If you're interested in contributing or taking over maintenance, please reach out.
+Development is not very active, as [the maintainer](https://github.com/walker84837) works on it when time permits. If you're interested in contributing or taking over maintenance, please reach out.
